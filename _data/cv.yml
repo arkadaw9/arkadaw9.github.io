@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Arka Daw
     - name: Date of Birth
-      value: 14th March 1879
+      value: 1st January 1996
     - name: Languages
-      value: English, German
+      value: English, Bengali, Hindi
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Virginia Tech
+      year: 2023
       description:
         - Description 1.
         - Description 2.
