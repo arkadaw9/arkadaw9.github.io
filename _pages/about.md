@@ -8,18 +8,14 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi there! Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there! I am a Distinguished Staff Fellow at Oak Ridge National Laboratory (ORNL), and a member of the Center for AI Security Research (CAISER). My research spans several key areas in deep learning, including AI safety, multimodal foundation models, generative AI, and applications of AI for real-world scientific problems. I did my Ph.D. from Virginia Tech on uncertainty quantification for Physics-informed Machine Learning, where I was advised by Anuj Karpatne.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Generally, I am passionate about everything related to deep learning and artificial intelligence. My current research focusses on enhancing the generalizability, robustness and reliability of deep learning models to ensure their safety and trustworthiness. I am also working on developing large-scale foundational models tailored for ecological systems (such as lakes and streams) and geospatial applications (including satellite imagery). 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have also experience working in the industry as a research intern at IBM Research, Yorktown Heights, NY (2022) and Amazon Web Services (AWS), Seattle (2021). In 2023, I was honored with the Kafura Graduate Fellowship from the Department of Computer Science at Virginia Tech. Before pursuing my Ph.D., I earned a bachelor’s degree in Electronics Engineering from Jadavpur University.
