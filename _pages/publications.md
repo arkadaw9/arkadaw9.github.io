@@ -15,16 +15,13 @@ nav_order: 2
 
 <div class="publications">
 
-## Conference & Journal Publications
-
+<h4><b>Conference and Journal Publications</b></h4>
 {% bibliography -f papers -q @*[category=Conference Publications] %}
 
-## Preprints
-
+<h4><b>Preprints</b></h4>
 {% bibliography -f papers -q @*[category=Preprints] %}
 
-## Workshop Publications
-
+<h4><b>Workshop Papers</b></h4>
 {% bibliography -f papers -q @*[category=Workshop Papers] %}
 
 </div>
