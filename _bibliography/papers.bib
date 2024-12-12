@@ -200,6 +200,93 @@
   publisher={NeurIPS}
 }
 
+@inproceedings{daw2022multi,
+  abbr={IEEE Big Data 2022},
+  bibtex_show={true},
+  title={Multi-task learning for source attribution and field reconstruction for methane monitoring},
+  author={Daw, Arka and Yeo, Kyongmin and Karpatne, Anuj and Klein, Levente},
+  abstract={Inferring the source information of greenhouse gases, such as methane, from spatially sparse sensor observations is an essential element in mitigating climate change. While it is well understood that the complex behavior of the atmospheric dispersion of such pollutants is governed by the Advection-Diffusion equation, it is difficult to directly apply the governing equations to identify the source location and magnitude (inverse problem) because of the spatially sparse and noisy observations, i.e., the pollution concentration is known only at the sensor locations and sensors sensitivity is limited. Here, we develop a multi-task learning framework that can provide high-fidelity reconstruction of the concentration field and identify emission characteristics of the pollution sources such as their location, emission strength, etc. from sparse sensor observations. We demonstrate that our proposed framework is able to achieve accurate reconstruction of the methane concentrations from sparse sensor measurements as well as precisely pin-point the location and emission strength of these pollution sources.},
+  booktitle={2022 IEEE International Conference on Big Data (Big Data)},
+  pages={4835--4841},
+  year={2022},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/10020603},
+}
+
+@article{padhi2022deep,
+  abbr={BioRxiv},
+  bibtex_show={true},
+  title={Deep Learning Enabled Label-free Cell Force Computation in Deformable Fibrous Environments},
+  author={Padhi, Abinash and Daw, Arka and Sawhney, Medha and Talukder, Maahi M and Agashe, Atharva and Kale, Sohan and Karpatne, Anuj and Nain, Amrinder S},
+  abstract={Through force exertion, cells actively engage with their immediate fibrous extracellular matrix (ECM) environment, causing dynamic remodeling of the environment and influencing cellular shape and contractility changes in a feedforward loop. Controlling cell shapes and quantifying the force-driven dynamic reciprocal interactions in a label-free setting is vital to understand cell behavior in fibrous environments but currently unavailable. Here, we introduce a force measurement platform termed crosshatch nanonet force microscopy (cNFM) that reveals new insights into cell shape-force coupling. Using a suspended crosshatch network of fibers capable of recovering in vivo cell shapes, we utilize deep learning methods to circumvent the fiduciary fluorescent markers required to recognize fiber intersections. Our method provides high fidelity computer reconstruction of different fiber architectures by automatically translating phase-contrast time-lapse images into synthetic fluorescent images. An inverse problem based on the nonlinear mechanics of fiber networks is formulated to match the network deformation and deformed fiber shapes to estimate the forces. We reveal an order-of-magnitude force changes associated with cell shape changes during migration, forces during cell-cell interactions and force changes as single mesenchymal stem cells undergo differentiation. Overall, deep learning methods are employed in detecting and tracking highly compliant backgrounds to develop an automatic and label-free force measurement platform to describe cell shape-force coupling in fibrous environments that cells would likely interact with in vivo.},
+  journal={bioRxiv},
+  pages={2022--10},
+  year={2022},
+  publisher={Cold Spring Harbor Laboratory},
+  html={https://www.biorxiv.org/content/10.1101/2022.10.24.513423v1.abstract},
+}
+
+@incollection{daw2022physics,
+  abbr={KGML Book},
+  bibtex_show={true},
+  title={Physics-guided neural networks (pgnn): An application in lake temperature modeling},
+  author={Daw, Arka and Karpatne, Anuj and Watkins, William D and Read, Jordan S and Kumar, Vipin},
+  abstract={This chapter introduces a framework for combining scientific knowledge of physics-based models with neural networks to advance scientific discovery. It explains termed physics-guided neural networks (PGNN), leverages the output of physics-based model simulations along with observational features in a hybrid modeling setup to generate predictions using a neural network architecture. Data science has become an indispensable tool for knowledge discovery in the era of big data, as the volume of data continues to explode in practically every research domain. Recent advances in data science such as deep learning have been immensely successful in transforming the state-of-the-art in a number of commercial and industrial applications such as natural language translation and image classification, using billions or even trillions of data samples. Accurate water temperatures are critical to understanding contemporary change, and for predicting future thermal habitat of economically valuable fish.},
+  booktitle={Knowledge Guided Machine Learning},
+  pages={353--372},
+  year={2022},
+  publisher={Chapman and Hall/CRC},
+  html={https://www.taylorfrancis.com/chapters/edit/10.1201/9781003143376-15/physics-guided-neural-networks-pgnn-application-lake-temperature-modeling-arka-daw-anuj-karpatne-william-watkins-jordan-read-vipin-kumar},
+}
+
+@incollection{daw2022physics,
+  abbr={KGML Book},
+  bibtex_show={true},
+  title={Physics-guided architecture (PGA) of LSTM models for uncertainty quantification in lake temperature modeling},
+  author={Daw, Arka and Thomas, R Quinn and Carey, Cayelan C and Read, Jordan S and Appling, Alison P and Karpatne, Anuj},
+  abstract={This chapter focuses on meeting the need to produce neural network outputs that are physically consistent and also express uncertainties, a rare combination to date. It explains the effectiveness of physics-guided architecture - long-short-term-memory (PGA-LSTM) in achieving better generalizability and physical consistency over data collected from Lake Mendota in Wisconsin and Falling Creek Reservoir in Virginia, even with limited training data. Even though PGL formulations result in improvements in the generalization performance and lead to machine learning (ML) predictions that are more physically consistent, simply adding the physics-based loss function in the learning objective does not overcome the black-box nature of neural network architectures, which often involve arbitrary design choices. The temperature of water in a lake is a fundamental driver of lake biogeochemical processes, and it controls the growth, survival, and reproduction of fishes in the lake.},
+  booktitle={Knowledge Guided Machine Learning},
+  pages={399--416},
+  year={2022},
+  publisher={Chapman and Hall/CRC},
+  html={https://www.taylorfrancis.com/chapters/edit/10.1201/9781003143376-17/physics-guided-architecture-pga-lstm-models-uncertainty-quantification-lake-temperature-modeling-arka-daw-quinn-thomas-cayelan-carey-jordan-read-alison-appling-anuj-karpatne}
+}
+
+@article{bu2021learning,
+  abbr={NeurIPS 2021},
+  bibtex_show={true},
+  title={Learning compact representations of neural networks using discriminative masking (DAM)},
+  author={Bu, Jie and Daw, Arka and Maruf, M and Karpatne, Anuj},
+  abstract={A central goal in deep learning is to learn compact representations of features at every layer of a neural network, which is useful for both unsupervised representation learning and structured network pruning. While there is a growing body of work in structured pruning, current state-of-the-art methods suffer from two key limitations: (i) instability during training, and (ii) need for an additional step of fine-tuning, which is resource-intensive. At the core of these limitations is the lack of a systematic approach that jointly prunes and refines weights during training in a single stage, and does not require any fine-tuning upon convergence to achieve state-of-the-art performance. We present a novel single-stage structured pruning method termed DiscriminAtive Masking (DAM). The key intuition behind DAM is to discriminatively prefer some of the neurons to be refined during the training process, while gradually masking out other neurons. We show that our proposed DAM approach has remarkably good performance over a diverse range of applications in representation learning and structured pruning, including dimensionality reduction, recommendation system, graph representation learning, and structured pruning for image classification. We also theoretically show that the learning objective of DAM is directly related to minimizing the L_0 norm of the masking layer. All of our codes and datasets are available https://github.com/jayroxis/dam-pytorch.},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={3491--3503},
+  year={2021},
+  publisher={NeurIPS},
+  html={https://proceedings.neurips.cc/paper_files/paper/2021/hash/1cc8a8ea51cd0adddf5dab504a285915-Abstract.html}
+}
+
+@inproceedings{10.1145/3447548.3467449,
+  abbr={KDD 2021},
+  bibtex_show={true},
+  author = {Daw, Arka and Maruf, M. and Karpatne, Anuj},
+  title = {PID-GAN: A GAN Framework based on a Physics-informed Discriminator for Uncertainty Quantification with Physics},
+  year = {2021},
+  isbn = {9781450383325},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3447548.3467449},
+  doi = {10.1145/3447548.3467449},
+  abstract = {As applications of deep learning (DL) continue to seep into critical scientific use-cases, the importance of performing uncertainty quantification (UQ) with DL has become more pressing than ever before. In scientific applications, it is also important to inform the learning of DL models with knowledge of physics of the problem to produce physically consistent and generalized solutions. This is referred to as the emerging field of physics-informed deep learning (PIDL). We consider the problem of developing PIDL formulations that can also perform UQ. To this end, we propose a novel physics-informed GAN architecture, termed PID-GAN, where the knowledge of physics is used to inform the learning of both the generator and discriminator models, making ample use of unlabeled data instances. We show that our proposed PID-GAN framework does not suffer from imbalance of generator gradients from multiple loss terms as compared to state-of-the-art. We also empirically demonstrate the efficacy of our proposed framework on a variety of case studies involving benchmark physics-based PDEs as well as imperfect physics. All the code and datasets used in this study have been made available on this link: https://github.com/arkadaw9/PID-GAN.},
+  booktitle = {Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery \& Data Mining},
+  pages = {237–247},
+  numpages = {11},
+  keywords = {uncertainty quantification, physics-informed neural networks, generative adversarial networks},
+  location = {Virtual Event, Singapore},
+  series = {KDD '21},
+  html={https://dl.acm.org/doi/abs/10.1145/3447548.3467449}
+}
+
 
 
 @string{aps = {American Physical Society,}}
