@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Co-organized the [First Bridge Program on KGM](https://sites.google.com/vt.edu/kgml-bridge-aaai-24/) at AAAI 2024.
+Co-organized the [First Bridge Program on KGML](https://sites.google.com/vt.edu/kgml-bridge-aaai-24/) at AAAI 2024.
