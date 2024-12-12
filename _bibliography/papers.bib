@@ -68,7 +68,7 @@
   journal={in proceedings of Neural Information Processing Systems (NeurIPS) 2024},
   year={2024},
   publisher={NeurIPS},
-  html={https://arxiv.org/abs/2408.16176}
+  html={https://neurips.cc/virtual/2024/poster/97668}
 }
 
 @article{mehrab2024fish,
@@ -83,6 +83,55 @@
   html={https://arxiv.org/abs/2407.08027}
 }
 
+@article{khurana2024hierarchical,
+  abbr={ECCV 2024},
+  bibtex_show={true},
+  title={Hierarchical Conditioning of Diffusion Models Using Tree-of-Life for Studying Species Evolution},
+  author={Khurana, Mridul and Daw, Arka and Maruf, M and Uyeda, Josef C and Dahdul, Wasila and Charpentier, Caleb and Bak{\i}{\c{s}}, Yasin and Bart Jr, Henry L and Mabee, Paula M and Lapp, Hilmar and others},
+  abstract={A central problem in biology is to understand how organisms evolve and adapt to their environment by acquiring variations in the observable characteristics or traits of species across the tree of life. With the growing availability of large-scale image repositories in biology and recent advances in generative modeling, there is an opportunity to accelerate the discovery of evolutionary traits automatically from images. Toward this goal, we introduce Phylo-Diffusion, a novel framework for conditioning diffusion models with phylogenetic knowledge represented in the form of HIERarchical Embeddings (HIER-Embeds). We also propose two new experiments for perturbing the embedding space of Phylo-Diffusion: trait masking and trait swapping, inspired by counterpart experiments of gene knockout and gene editing/swapping. Our work represents a novel methodological advance in generative modeling to structure the embedding space of diffusion models using tree-based knowledge. Our work also opens a new chapter of research in evolutionary biology by using generative models to visualize evolutionary changes directly from images. We empirically demonstrate the usefulness of Phylo-Diffusion in capturing meaningful trait variations for fishes and birds, revealing novel insights about the biological mechanisms of their evolution.},
+  journal={in proceedings of European Conference on Computer Vision (ECCV) 2024},
+  year={2024},
+  publisher={ECCV},
+  html={https://eccv.ecva.net/virtual/2024/poster/2061}
+}
+
+@article{kashi2024learning,
+  abbr={ICML 2024},
+  bibtex_show={true},
+  title={Learning the boundary-to-domain mapping using Lifting Product Fourier Neural Operators for partial differential equations},
+  author={Kashi, Aditya and Daw, Arka and Meena, Muralikrishnan Gopalakrishnan and Lu, Hao},
+  abstract={Neural operators such as the Fourier Neural Operator (FNO) have been shown to provide resolution-independent deep learning models that can learn mappings between function spaces. For example, an initial condition can be mapped to the solution of a partial differential equation (PDE) at a future time-step using a neural operator. Despite the popularity of neural operators, their use to predict solution functions over a domain given only data over the boundary (such as a spatially varying Dirichlet boundary condition) remains unexplored. In this paper, we refer to such problems as boundary-to-domain problems; they have a wide range of applications in areas such as fluid mechanics, solid mechanics, heat transfer etc. We present a novel FNO-based architecture, named Lifting Product FNO (or LP-FNO) which can map arbitrary boundary functions defined on the lower-dimensional boundary to a solution in the entire domain. Specifically, two FNOs defined on the lower-dimensional boundary are lifted into the higher dimensional domain using our proposed lifting product layer. We demonstrate the efficacy and resolution independence of the proposed LP-FNO for the 2D Poisson equation.},
+  journal={AI4Science Workshop at International Conference on Machine Learning (ICML) 2024},
+  year={2024},
+  publisher={ICML},
+  html={https://arxiv.org/abs/2406.16740}
+}
+
+@article{sawhney2024motion,
+  abbr={AIS},
+  bibtex_show={true},
+  title={Motion Enhanced Multi-Level Tracker (MEMTrack): A Deep Learning-Based Approach to Microrobot Tracking in Dense and Low-Contrast Environments},
+  author={Sawhney, Medha and Karmarkar, Bhas and Leaman, Eric J and Daw, Arka and Karpatne, Anuj and Behkam, Bahareh},
+  abstract={Tracking microrobots is challenging due to their minute size and high speed. In biomedical applications, this challenge is exacerbated by the dense surrounding environments with feature sizes and shapes comparable to microrobots. Herein, Motion Enhanced Multi-level Tracker (MEMTrack) is introduced for detecting and tracking microrobots in dense and low-contrast environments. Informed by the physics of microrobot motion, synthetic motion features for deep learning-based object detection and a modified Simple Online and Real-time Tracking (SORT)algorithm with interpolation are used for tracking. MEMTrack is trained and tested using bacterial micromotors in collagen (tissue phantom), achieving precision and recall of 76% and 51%, respectively. Compared to the state-of-the-art baseline models, MEMTrack provides a minimum of 2.6-fold higher precision with a reasonably high recall. MEMTrack's generalizability to unseen (aqueous) media and its versatility in tracking microrobots of different shapes, sizes, and motion characteristics are shown. Finally, it is shown that MEMTrack localizes objects with a root-mean-square error of less than 1.84 μm and quantifies the average speed of all tested systems with no statistically significant difference from the laboriously produced manual tracking data. MEMTrack significantly advances microrobot localization and tracking in dense and low-contrast settings and can impact fundamental and translational microrobotic research.},
+  journal={Advanced Intelligent Systems},
+  volume={6},
+  number={4},
+  pages={2300590},
+  year={2024},
+  publisher={Wiley Online Library},
+  html={https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202300590},
+}
+
+@article{daw2024physics,
+  abbr={Ph.D. Dissertation},
+  bibtex_show={true},
+  title={Physics-informed Machine Learning with Uncertainty Quantification},
+  author={Daw, Arka},
+  abstract={Physics Informed Machine Learning (PIML) has emerged as the forefront of research in scientific machine learning with the key motivation of systematically coupling machine learning (ML) methods with prior domain knowledge often available in the form of physics supervision. Uncertainty quantification (UQ) is an important goal in many scientific use-cases, where the obtaining reliable ML model predictions and accessing the potential risks associated with them is crucial. In this thesis, we propose novel methodologies in three key areas for improving uncertainty quantification for PIML. First, we propose to explicitly infuse the physics prior in the form of monotonicity constraints through architectural modifications in neural networks for quantifying uncertainty. Second, we demonstrate a more general framework for quantifying uncertainty with PIML that is compatible with generic forms of physics supervision such as PDEs and closed form equations. Lastly, we study the limitations of physics-based loss in the context of Physics-informed Neural Networks (PINNs), and develop an efficient sampling strategy to mitigate the failure modes.},
+  year={2024},
+  publisher={Virginia Tech},
+  html={https://vtechworks.lib.vt.edu/items/04ca13c4-5ae7-4381-8a97-cc3f126724c2},
+}
 
 @string{aps = {American Physical Society,}}
 
