@@ -20,8 +20,19 @@
   abstract={Machine learning models are known to be vulnerable to adversarial attacks, but traditional attacks have mostly focused on single-modalities. With the rise of large multi-modal models (LMMs) like CLIP, which combine vision and language capabilities, new vulnerabilities have emerged. However, prior work in multimodal targeted attacks aim to completely change the model's output to what the adversary wants. In many realistic scenarios, an adversary might seek to make only subtle modifications to the output, so that the changes go unnoticed by downstream models or even by humans. We introduce Hiding-in-Plain-Sight (HiPS) attacks, a novel class of adversarial attacks that subtly modifies model predictions by selectively concealing target object(s), as if the target object was absent from the scene. We propose two HiPS attack variants, HiPS-cls and HiPS-cap, and demonstrate their effectiveness in transferring to downstream image captioning models, such as CLIP-Cap, for targeted object removal from image captions.},
   journal={Adversarial Frontiers Workshop at NeurIPS 2024},
   year={2024},
-  publisher={Arxiv},
+  publisher={NeurIPS},
   html={https://arxiv.org/abs/2410.13010}
+}
+
+@inproceedings{neogmasking,
+  abbr={NeurIPS 2024},
+  bibtex_show={true},
+  title={Masking the Gaps: An Imputation-Free Approach to Time Series Modeling with Missing Data},
+  author={Neog, Abhilash and Daw, Arka and Khorasgani, Sepideh Fatemi and Karpatne, Anuj},
+  abstract={A significant challenge in time-series (TS) modelling is presence of missing values in real-world TS datasets. Traditional two-stage frameworks, involving imputation followed by modeling, suffer from two key drawbacks: (1) the propagation of imputation errors into subsequent TS modeling, (2) the trade-offs between imputation efficacy and imputation complexity. While one-stage approaches attempt to address these limitations, they often struggle with scalability or fully leveraging partially observed features. To this end, we propose a novel imputation-free approach for handling missing values in time series termed \textbf{Miss}ing Feature-aware \textbf{T}ime \textbf{S}eries \textbf{M}odeling (\textbf{MissTSM}) with two main innovations. \textit{First}, we develop a novel embedding scheme that treats every combination of time-step and feature (or channel) as a distinct token. \textit{Second}, we introduce a novel \textit{Missing Feature-Aware Attention (MFAA) Layer} to learn latent representations at every time-step based on partially observed features. We evaluate the effectiveness of MissTSM in handling missing values over multiple benchmark datasets.},
+  booktitle={NeurIPS Workshop on Time Series in the Age of Large Models},
+  year={2024},
+  publisher={NeurIPS},
 }
 
 @article{gupta2024unified,
@@ -58,6 +69,18 @@
   year={2024},
   publisher={NeurIPS},
   html={https://arxiv.org/abs/2408.16176}
+}
+
+@article{mehrab2024fish,
+  abbr={Arxiv},
+  bibtex_show={true},
+  title={Fish-Vista: A Multi-Purpose Dataset for Understanding \& Identification of Traits from Images},
+  author={Mehrab, Kazi Sajeed and Maruf, M and Daw, Arka and Manogaran, Harish Babu and Neog, Abhilash and Khurana, Mridul and Altintas, Bahadir and Bakis, Yasin and Campolongo, Elizabeth G and Thompson, Matthew J and others},
+  abstract={Fishes are integral to both ecological systems and economic sectors, and studying fish traits is crucial for understanding biodiversity patterns and macro-evolution trends. To enable the analysis of visual traits from fish images, we introduce the Fish-Visual Trait Analysis (Fish-Vista) dataset - a large, annotated collection of about 60K fish images spanning 1900 different species, supporting several challenging and biologically relevant tasks including species classification, trait identification, and trait segmentation. These images have been curated through a sophisticated data processing pipeline applied to a cumulative set of images obtained from various museum collections. Fish-Vista provides fine-grained labels of various visual traits present in each image. It also offers pixel-level annotations of 9 different traits for 2427 fish images, facilitating additional trait segmentation and localization tasks. The ultimate goal of Fish-Vista is to provide a clean, carefully curated, high-resolution dataset that can serve as a foundation for accelerating biological discoveries using advances in AI. Finally, we provide a comprehensive analysis of state-of-the-art deep learning techniques on Fish-Vista.},
+  journal={arXiv preprint arXiv:2407.08027},
+  year={2024},
+  publisher={Arxiv},
+  html={https://arxiv.org/abs/2407.08027}
 }
 
 
